@@ -5,14 +5,15 @@ Email Conflict Check:
 ---------------------
 Implemented a function (Check-EmailExists) to check if an email address already exists in the entire domain (not just in the specified OU).
 When a conflict is detected, the script skips adding the conflicting email and logs the details.
-User Modification Tracking:
 
+User Modification Tracking:
+---------------------------
 Introduced a flag ($UserModified) to track whether any modifications were made to a user’s email or proxy addresses.
 Only users who had their email or proxy addresses modified are counted in the final summary.
+
 Email Conflict Logging:
-
+-----------------------
 Created an array ($EmailConflicts) to store details of users who encountered email conflicts, including their names, sAMAccountNames, and conflicting email addresses.
-
 
 Detailed Output for Conflicts:
 ------------------------------
@@ -36,12 +37,14 @@ Kontrola konfliktů e-mailů:
 ---------------------------
 Implementována funkce (Check-EmailExists), která kontroluje, zda e-mailová adresa již existuje v celé doméně (nejen v určeném OU).
 Když dojde k detekci konfliktu, skript přeskočí přidání konfliktujícího e-mailu a zaznamená detaily.
-Sledování změn uživatelů:
 
+Sledování změn uživatelů:
+-------------------------
 Zaveden příznak ($UserModified), který sleduje, zda došlo k jakýmkoli změnám v e-mailu nebo proxy adresách uživatele.
 Počítají se pouze uživatelé, kteří měli upravený e-mail nebo proxy adresy, do konečného shrnutí.
-Záznam konfliktů e-mailů:
 
+Záznam konfliktů e-mailů:
+-------------------------
 Vytvořeno pole ($EmailConflicts), které ukládá detaily uživatelů, kteří se setkali s konflikty e-mailů, včetně jejich jmen, sAMAccountNames a konfliktujících e-mailových adres.
 
 Podrobný výstup pro konflikty:

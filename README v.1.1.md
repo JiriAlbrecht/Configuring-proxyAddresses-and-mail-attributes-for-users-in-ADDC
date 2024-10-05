@@ -18,9 +18,10 @@ Detailed Output for Conflicts:
 ------------------------------
 Enhanced the output to display all users with email conflicts, formatted with user names and their conflicting email addresses.
 The count of skipped users due to email conflicts is included in the output.
-General Email Field Check:
 
-Ensured that if the "General" email field is filled for any user, it is checked against existing emails in the domain before allowing updates.
+General Email Field Check:
+--------------------------
+Ensured that if the "General - E-mail" email field is filled for any user, it is checked against existing emails in the domain before allowing updates.
 
 Formatting Improvements:
 ------------------------
@@ -48,9 +49,9 @@ Podrobný výstup pro konflikty:
 Vylepšený výstup, který zobrazuje všechny uživatele s konflikty e-mailů, formátovaný se jmény uživatelů a jejich konfliktujícími e-mailovými adresami.
 Zahrnuto je také počítání přeskočených uživatelů kvůli konfliktům e-mailů.
 
-Kontrola e-mailového pole General:
-----------------------------------
-Zajištěno, že pokud je vyplněno pole "General" pro jakéhokoli uživatele, je zkontrolováno proti existujícím e-mailům v doméně před povolením aktualizací.
+Kontrola e-mailového pole General - E-mail:
+-------------------------------------------
+Zajištěno, že pokud je vyplněno pole "General - E-mail" pro jakéhokoli uživatele, je zkontrolováno proti existujícím e-mailům v doméně před povolením aktualizací.
 
 Vylepšení formátování:
 ----------------------

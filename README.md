@@ -1,4 +1,4 @@
-# Configuring proxyAddresses and mail attributes for users in ADDC
+# Add proxyAddresses and mail attributes for users in ADDC v.2.1
 
 ## Configuring proxyAddresses and mail attributes for users in ADDC
 
@@ -58,7 +58,7 @@ Zachova nastaveni emailu a prida sekundarni emailovou adresu
    * LastName.FirstName@Secondary Domain
    * Lastname@Secondary Domain 
     
-## List proxyAddresses and email
+# List proxyAddresses and email
 The script creates a list of users in the specified OU and prints their proxyAddresses and mail attributes. Everything is saved into a file.
 
 Skript vytvoří seznam uživatelů v zadané organizační jednotce a vytiskne jejich proxyAddresses a atribut mail. Vše se uloží do souboru.

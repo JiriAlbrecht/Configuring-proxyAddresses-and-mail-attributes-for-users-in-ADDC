@@ -14,23 +14,23 @@ In the selected OU, the script will delete the proxyAddresses and mail settings 
 Then, it sets the proxyAddresses and mail in the chosen format.
 
 The script allows selecting the primary address and individual email aliases:
-    FirstName.LastName@YourDomain
-    LastName.FirstName@YourDomain
-    LastName@YourDomain
-    sAMAccountName@YourDomain
+   * FirstName.LastName@YourDomain
+   * LastName.FirstName@YourDomain
+   * LastName@YourDomain
+   * sAMAccountName@YourDomain
 
 "YourDomain" is retrieved from the domain.
 
 The script also allows selecting the secondary domain address and individual email aliases: 
-    FirstName.LastName@SecondaryDomain
-    LastName.FirstName@SecondaryDomain
-    LastName@SecondaryDomain
+   * FirstName.LastName@SecondaryDomain
+   * LastName.FirstName@SecondaryDomain
+   * LastName@SecondaryDomain
 
 Add only email for secondary domain
 Keeps email settings and adds a secondary email address
-    FirstName.LastName@SecondaryDomain
-    LastName.FirstName@SecondaryDomain
-    LastName@SecondaryDomain
+   * FirstName.LastName@SecondaryDomain
+   * LastName.FirstName@SecondaryDomain
+   * LastName@SecondaryDomain
 
 
 Skript udela hromadne nastaveni atributu proxyAddresses a atributu mail u vsech Users ve vybrane OU.
@@ -40,21 +40,21 @@ Ve zvolenem OU skript vymaze nastaveni proxyAddresses a mail u vsech Users, poku
 Potom nastavi proxiAddresses a mail ve zvolenem formatu.
                          
 Skrypt umoznuje zvolit primarni adresu a jednotlive emailove aliasy.
-    FirstName.LastName@Your domain
-    LastName.FirstName@Your domain
-    Lastname@Your domain
-    sAMAccountName@Your domain
+   * FirstName.LastName@Your domain
+   * LastName.FirstName@Your domain
+   * Lastname@Your domain
+   * sAMAccountName@Your domain
     
 "Your domain" vypise z domeny.
 
 Skrypt umoznuje zvolit sekundarni domenovou adresu a jednotlive emailove aliasy.
-    FirstName.LastName@Secondary Domain
-    LastName.FirstName@Secondary Domain
-    Lastname@Secondary Domain 
+   * FirstName.LastName@Secondary Domain
+   * LastName.FirstName@Secondary Domain
+   * Lastname@Secondary Domain 
 
 Pridat pouze sekundarni domenu.
 Zachova nastaveni emailu a prida sekundarni emailovou adresu
-    FirstName.LastName@Secondary Domain
-    LastName.FirstName@Secondary Domain
-    Lastname@Secondary Domain 
+   * FirstName.LastName@Secondary Domain
+   * LastName.FirstName@Secondary Domain
+   * Lastname@Secondary Domain 
     
